@@ -1,0 +1,13 @@
+--- Log started: 2025-10-25 ---
+
+INFO: System boot sequence initiated.
+INFO: User 'admin' logged in from 192.168.1.10.
+WARN: Disk space running low on /dev/sda1 (10% remaining).
+ERROR: Failed to connect to database: Connection timed out.
+INFO: Processing user request #45A01.
+DEBUG: Internal variable check: x = 10 (SKIPPED)
+
+ERROR: NullPointerException at com.example.UserService:42
+ERROR: Database query failed for user 'guest'.
+INFO: Request #45A01 processed successfully.
+WARN: High latency detected: 3500ms response time.
